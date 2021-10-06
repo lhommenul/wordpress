@@ -7,9 +7,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<?php 
- include_once('header.php');
-?>
+<?php get_header(); ?>
 <body>
 	<main class="main-content">
 		<section class="about">
@@ -189,7 +187,5 @@
 		</section>
 	</main>
 </body>
-<?php 
- include_once('footer.php');
-?>
+<?php get_footer(); ?>
 </html>
